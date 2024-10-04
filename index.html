@@ -224,6 +224,33 @@ p {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
 
 @media (min-width: 48em) {
     .content {
@@ -320,7 +347,7 @@ p {
 		  <div>
 			<h3>News</h3>
 				<div class="text-justify">
-				Something :)
+				Awarded best undergraduate poster on TECHCON 2024
 			  </div>
 		  </div>
 		</div>
@@ -341,35 +368,35 @@ p {
         
                     <li>
                             <strong>Multipurpose image colorization: a novel pipeline using convolutional neural networks</strong>. <br>
-                            **I. Gomez Moreno**, U. Orozco-Rosas, K. Picos, T. Rosing<br>
+                            <b>I. Gomez Moreno</b>, U. Orozco-Rosas, K. Picos, T. Rosing<br>
                         SPIE 2024<br>
                         <a class="buttan nf" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13136/131360J/Multipurpose-image-colorization--a-novel-pipeline-using-convolutional-neural/10.1117/12.3028369.short">SPIE</a>
                     </li>
 
                     <li>
                             <strong>Lifelong Intelligence Beyond the Edge using Hyperdimensional Computing</strong>. <br>
-                            X. Yu, A. Thomas, **I. Gomez Moreno**, L. Gutierrez, T. Rosing<br>
+                            X. Yu, A. Thomas, <b>I. Gomez Moreno</b>, L. Gutierrez, T. Rosing<br>
                             IPSN 2024<br>
                         <a class="buttan free" href="https://arxiv.org/abs/2403.04759">arXiv</a>
                     </li>
 
                     <li>
                             <strong>KalmanHD: Robust On-Device Time Series Forecasting with HyperDimensional Computing</strong>. <br>
-                            **I. Gomez Moreno**, X. Yu, T. Rosing<br>
+                            <b>I. Gomez Moreno</b>, X. Yu, T. Rosing<br>
                             ASP-DAC 2024<br>
                         <a class="buttan free" href="http://varys.ucsd.edu/media/papers/gomez2024kalmanhd.pdf">UCSD</a>
                     </li>
 
                     <li>
                             <strong>Visualization and Labeling of Terrestrial LiDAR Data for Three-Dimensional Fuel Classification</strong>. <br>
-                            **I. Gomez Moreno**, I. Nealy, D. Rotten, M.H. Nguyen, D. Crawl, K. O'Laughlin, et. al.<br>
+                            <b>I. Gomez Moreno</b>, I. Nealy, D. Rotten, M.H. Nguyen, D. Crawl, K. O'Laughlin, et. al.<br>
                             IEEE e-Science 2023<br>
                         <a class="buttan nf" href="https://www.computer.org/csdl/proceedings-article/e-science/2023/10254841/1QJgfJcLUvS">IEEE Digital Library</a>
                     </li>
 
                     <li>
                             <strong>A Science-Enabled Virtual Reality Demonstration to Increase Social Acceptance of Prescribed Burns</strong>. <br>
-                            I. Nealey, D. Encinas Pacheco, **I. Gomez Moreno**, M. Floca, D. Crawl, I. Altintas<br>
+                            I. Nealey, D. Encinas Pacheco, <b>I. Gomez Moreno</b>, M. Floca, D. Crawl, I. Altintas<br>
                             IEEE e-Science 2022<br>
                         <a class="buttan nf" href="https://ieeexplore.ieee.org/document/9973713">IEEE</a>
                     </li>
@@ -384,20 +411,32 @@ p {
         <table class="styled-table">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Points</th>
+                    <th>Year</th>
+                    <th>Type</th>
+                    <th>Description</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Dom</td>
-                    <td>6000</td>
+                    <td>2024</td>
+                    <td>Best Poster</td>
+                    <td>Best Undergraduate poster in TECHCON</td>
                 </tr>
-                <tr class="active-row">
-                    <td>Melissa</td>
-                    <td>5150</td>
+                <tr>
+                    <td>2024</td>
+                    <td>Certificate</td>
+                    <td>“Getting Started with Deep Learning” in Python - Nvidia</td>
                 </tr>
-                <!-- and so on... -->
+                <tr>
+                    <td>2024</td>
+                    <td>Best Poster</td>
+                    <td>Best poster in the JUMP 2.0 Virtual Undergrad Symposium</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>Certificate</td>
+                    <td>“Fundamentals of Accelerated Computing with Python and C/C++” - Nvidia</td>
+                </tr>
             </tbody>
         </table>
 
